@@ -1,0 +1,62 @@
+/* style.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 1em;
+    background-color: #83afe2;
+    color: white;
+}
+footer{
+    background-color: #0b3a6e;
+    text-align: center;
+    padding: 1em;
+    color: white;
+}
+
+main {
+    display: flex;
+    padding: 1em;
+}
+
+.content {
+    display: flex;
+    gap: 2em;
+    width: 100%;
+}
+
+.info-lomba {
+    flex: 2;
+    text-align: justify;
+}
+
+.poster-pendaftaran {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    color: #000000;
+}
+
+.btn-register {
+    display: inline-block;
+    margin-top: 2em;
+    padding: 1em 1em;
+    background-color: #205899;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-register:hover {
+    background-color: #02135c;
+}
